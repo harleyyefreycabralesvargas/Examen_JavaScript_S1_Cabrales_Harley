@@ -21,7 +21,7 @@ function getplatos(){
     <button id="ver_info${i}">Ver detalles</button>
     </div
     `}
-    for (let f=0;f<data.meals.length-1;f++){
+    for (let f=0;f<data.meals.length;f++){
     let lista={
         ingredientes: [
             data.meals[f].strIngredient1,
